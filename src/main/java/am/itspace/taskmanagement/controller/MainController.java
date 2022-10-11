@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class MainController {
 
+
     @GetMapping("/")
     public String mainPage() {
         return "index";
